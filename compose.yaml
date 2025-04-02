@@ -1,0 +1,6 @@
+services:
+  valkey:
+    image: "valkey/valkey:8.1.0"
+    container_name: valkey-container
+    ports:
+      - "6379:6379"
